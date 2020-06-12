@@ -4,7 +4,7 @@ namespace ConsoleApp1
 {
     class Program
     {
-        static private string Er = "error";
+        private static readonly string Er = "error";
         static void Main(string[] args)
         {
 
@@ -25,7 +25,7 @@ namespace ConsoleApp1
                             Console.WriteLine("Fizz");
                             break;
                         default:
-                            Console.WriteLine(Er);
+                            Console.WriteLine(i);
                             break;
                     }
                 }
